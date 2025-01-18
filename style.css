@@ -297,6 +297,10 @@ body{
 
 #contact{
     padding: 25px 0 25px 0;
+    background-image: url("wall.jpg");
+    background-size: cover;
+    background-position: center center;
+
 
 }
 #contact_row{
@@ -314,7 +318,7 @@ body{
 }
 #contact_col p,h3{
     font-weight: bold;
-    color: #292929;
+    color: #fff;
     margin: 10px;
 }
 .contact_col p a{
@@ -355,8 +359,28 @@ body{
     border: 1px solid orange;
     cursor: pointer;
 }
-
-
+#footer{
+    background-color: #292929;
+    padding: 20px;
+    position: relative;
+}
+#footer h5{
+    text-align: center;
+    color: orange;
+}
+#footer h5 a{
+    text-decoration: none;
+    color: #fff;
+}
+#top{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+#top a{
+    color: #fff;
+    font-size: 1.2rem;
+}
 @media screen and (max-width: 768px) {
     #header{
         position: absolute;
